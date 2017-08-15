@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Fjalla One
+
+}
+
+  margin: 0;
+  background-color: #152F87;
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%inherit;
+  margin-bottom: -142px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 142px;
+
+}
+
+nav {
+
+  background: #ffffff;
+  width: 100%;
+  opacity: .5;
+  height: 4em;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav.menu ul li {
+  text-align: center;
+  display: inline-block;
+
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+ul li a img.redes {
+  width: 1em;
+}
+
+div.hola {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.hola a {
+  width: 25%;
+
+}
+
+div.hola a img {
+  width: 100%;
+  margin: 1em;
+}
+
+#cuerpo, #uno {
+  transition: 2s;
+
+}
+
+.azul {
+  background-color: #152F87;
+
+}
+
+.verde {
+  background-color: #00948F;
+
+}
